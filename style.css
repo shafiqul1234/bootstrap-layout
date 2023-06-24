@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Titillium+Web:ital,wght@0,400;0,600;0,700;1,300&display=swap');
+
+*{
+
+  font-family: 'Lobster', cursive;
+font-family: 'Titillium Web', sans-serif;
+}
+.underline{
+  border-top: 2px solid rgba(0, 0, 0, 0.316);
+  width: 5%;
+  margin: 10px auto;
+  }
+
+header{
+  background-color:#87509c;
+  
+} 
+.nav-link:hover{
+  border-radius: 5px;
+  background-color: rgb(171, 9, 155)  !important;
+  
+}
+.btn{
+  background-color: #eb7d4b !important;
+}
+.btn:hover{
+  background-color: black !important;
+}
+
+/* sarvice  */
+#sarvice{
+  background-color: #17c2a4;
+  
+}
+#sarvice .box img{
+  height: 130px;
+}
+/* team  */
+#team{
+  background: #e7f1f8;
+  
+}
+#team .card{
+  background: #e7f1f8;
+  border:  #e7f1f8;
+}
+.team-icon-box i{
+  font-size: 17px;
+  color: white;
+  background-color:#bdd1df;
+  padding: 10px;
+  width: 35px;
+  border-radius: 100%;
+  margin-bottom: 10px;
+  }
+  .team-icon-box i:hover{
+   background-color: aqua;
+    }
+
+  
+/* skills  */
+#skills{
+  background: #ffffff;
+
+ }
+ #skills .card{
+  border: #ffffff;
+
+ } 
+ /* portfolio */
+ #portfolio{
+  background: #ffdd99;
+ }
+ 
+ #portfolio .card{
+  background:   #ffdd99;
+  border:    #ffdd99;
+}
+ .portfolio-btn ul {
+  text-align: center;
+  padding: 6px 0px;
+  
+}
+.portfolio-btn li :hover{
+  width: 80px;
+  background-color: #13f135;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+.portfolio-btn li {
+  
+  list-style: none;
+  display: inline-block;
+  width: 70px;
+  border-radius: 5px;
+  margin: 20px 10px;
+  background-color: rgba(0, 0, 0, 0.189);
+  text-decoration: none;
+}
+.portfolio-btn a{
+  text-decoration: none;
+}
+#portfolio .btn {
+  background-color:#17c2a4 !important;
+  color: white;
+}
+#portfolio .btn:hover {
+  background-color:#1f099b !important;
+  color: white;
+}
+
+ /* about us  */
+ #aboutus{
+  background: #d74680;
+ 
+}
+/* contouch  */
+#contouch{
+  background: #3c5499;
+}
+#contouch input{
+ background-color: #273a71;
+  color: white;
+}
+#contouch textarea{
+  background-color: #273a71;
+  color: white;
+  border-color:#273a71 ;
+}
+#contouch input::placeholder,
+textarea::placeholder{
+  color: white;
+  border-color:#273a71 ;
+}
+#contouch input{
+  background-color: #273a71;
+  color: white;
+  border-color:#273a71 ;
+}
+#contouch .btn {
+  background-color:#17c2a4 !important;
+  color: white;
+}
+#contouch .btn:hover {
+  background-color:#1f099b !important;
+  color: white;
+}
+/* footer  */
+
+  #footer{
+    background: #344b8e;
+    color: #ffff;
+    text-align: center;
+  }
+
+  .footer-menubar li {
+    list-style: none;
+    display: inline-block;
+    width: 85px;
+    border-radius: 5px;
+    margin: 30px 20px;
+    background-color: rgba(0, 0, 0, 0.129);
+  }
+  .footer-menubar a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+  }
+  .footer-menubar li :hover{
+    width: 50px;
+    background-color: #3ae3a5;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  
